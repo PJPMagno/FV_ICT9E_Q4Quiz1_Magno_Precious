@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>Q4 QUIZ1</title>
+	<style>
+		body{
+			font-family: courier;
+			background-image: url(https://i.pinimg.com/564x/0f/f1/0a/0ff10aa3c25755befa84515c3de76051.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+
+		#box{
+        background-color: dimgrey;
+        border: 5px solid black;
+    }
+
+	
+	</style>
+</head>
+<body>
+	<center>
+		<br><br>
+		<div id="login-container">
+			<div class="col-md-3" id="box">
+				<br>
+				<img class="rounded-circle"src="https://i.pinimg.com/736x/87/14/55/8714556a52021ba3a55c8e7a3547d28c.jpg" width="200px" height="200px" id="profile"><br><br>
+
+			<form action="portfolio.html" class="form-group">
+            <label id="1">Email:</label><br>
+            <input type="text" name="email" id="email" class="form-control bg-light">
+            <br>
+            <label id="2">Password:</label><br>
+            <input type="password" name="password" id="password" class="form-control bg-light">
+            <br>
+
+				<a href="portfolio.html"><button class="btn btn-light">Login</button></a>
+				<a href="#"><button type="reset" class="btn btn-light">Cancel</button></a>
+			</form>
+		    </div>
+		</div>
+	</center>
+	 	<script type="text/javascript">
+	 		document.getElementById("1").innerHTML = "Email:";
+	 		document.getElementById("2").innerHTML = "Password:";
+	 	</script>
+</body>
+</html>
